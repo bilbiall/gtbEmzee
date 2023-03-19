@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GTB - Bookings</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Features-Image-1.css">
+    <link rel="stylesheet" href="assets/css/Features-Image.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FTZWNB45D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4FTZWNB45D');
+</script>
+<style>
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: left;
+    }
+      form {
+        width: 100;
+        margin: 0 auto;
+        text-align: center;
+      }
+    
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+    
+      input[type="submit"] {
+        background-color: #d1a209;
+        color: white;
+        padding: 12px 20px; 
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: #5de664;
+      }
+    
+      .form-container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+      }
+    </style>
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#page-top">gtbEmzee</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="merchandise.html">merchandise</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bookings.html">Bookings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="songs.html">songs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html">events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact%20us.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <section class="position-relative py-4 py-xl-5">
+            <div class="container position-relative">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                        <div class="card mb-5">
+                            <div class="card-body p-sm-5">
+                                <!--<h2 class="text-center mb-4">BOOKINGS</h2>-->
+                                <section class="portfolio-block hire-me">
+                                    <div class="container">
+                                        <div class="heading" style="margin-top: 22px;"></div><div class="form-container">
+
+  <form id="fs-frm" name="survey-form" accept-charset="utf-8" action="https://formspree.io/f/mwkjqdvq" method="post">
+    <fieldset id="fs-frm-inputs">
+      <input type="hidden" name="package" id="package">
+      <label for="full-name">Name</label>
+      <input type="text" name="name" id="full-name" placeholder="Yourname" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="your@gmail.com" required="">
+      <!--<fieldset id="fs-frm-selects">-->
+         <label for="category">Category:</label><br>
+      <select id="category" name="category" required>
+        <option value="Club Appearance">Club Appearance</option> 
+        <option value="Brand Promotion">Brand Promotion</option>
+        <option value="Concert">Concert</option>
+        <option value="Featured Collaboration">Featured Collaboration</option>
+        <option value="Customized Merchandise">Customized Merchandise</option>
+      </select><br>
+   
+      <!--</fieldset>-->
+      <label for="date" placeholder="Date for service">Date:</label><br>
+    <input type="date" id="date" name="date"><br>
+      <textarea rows="3" name="message" id="message" placeholder="Short descriptive text here" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="BOOKING">
+    <!--</fieldset>-->
+    <input type="submit" value="Book ">
+  </form>
+</div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="col text-center d-inline-block float-start">
+        <div class="text-center text-white bg-secondary border rounded border-0 float-start p-4 p-md-5">
+            <p class="mb-4">You can alternatively reach us through a phone call or via whatsapp</p>
+            <div class="my-3"><a class="btn btn-primary btn-lg me-2" role="button" href="tel:+254799263573">Call Us <i class="fas fa-phone"></i></a><a class="btn btn-success btn-lg" role="button" href="https://wa.me/+254799263573" style="margin-left: 124px;" target="_blank">Whatsapp&nbsp;<i class="fab fa-whatsapp"></i></a></div>
+        </div>
+    </div>
+    <section id="services"></section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3"><a href="https://instagram.com/bil4reel?igshid=ZDdkNTZiNTM="><img class="img-fluid d-block mx-auto" src="assets/img/clients/SGN.png"></a></div>
+                <div class="col-sm-6 col-md-3"><a href="https://resumable-library.000webhostapp.com/index.html"><img class="img-fluid d-block mx-auto" src="assets/img/clients/Vumaa.png"></a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© gtbEmzee2023</span></div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item"><a href="https://twitter.com/emzeegtb"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://open.spotify.com/artist/75pIMAgNt4bf8OWBW8eImv?si=tPRRZUm_STOSMbxqMO8RAw&utm_source=copy-link"><i class="fa fa-spotify"></i></a></li>
+                        <li class="list-inline-item"><a href="https://youtube.com/@gtbemzee"><i class="fa fa-youtube-play"></i></a></li>
+                        <li class="list-inline-item"><a href="https://instagram.com/gtbemzee"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+    </script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/agency.js"></script>
+</body>
+
+</html>
